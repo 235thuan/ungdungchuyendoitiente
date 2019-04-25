@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Improved_converter</title>
+    <script src="tinhchuyendoitiente.js"></script>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td>Amount</td>
+        <td>From Currency
+        <td>To Currency</td>
+    </tr>
+    <br>
+    <tr>
+        <td>
+
+        <input type="numbe"r id="sotien">
+        </td>
+        <td>
+            <select id="from">
+            <option value="23000" >VND</option>
+            <option value="1" >USD</option>
+            <option value="0.85" >EUR</option>
+            <option value="32" >THB</option>
+            <option value="1.40">AUD</option>
+            <option value="112">JPY</option>
+            <option value="1.36">SGD</option>
+            <option value="0.00018">BTC</option>
+            <option value="4.13">MYR</option>
+            <option value="1.34">CAD</option>
+        </select>
+        </td>
+        <td>
+            <select id="to">
+                <option value="23000">VND</option>
+                <option value="1">USD</option>
+                <option value="0.85">EUR</option>
+                <option value="32">THB</option>
+                <option value="1.40">AUD</option>
+                <option value="112">JPY</option>
+                <option value="1.36">SGD</option>
+                <option value="0.00018">BTC</option>
+                <option value="4.13">MYR</option>
+                <option value="1.34">CAD</option>
+            </select>
+        </td>
+    </tr>
+</table>
+<table border="1">
+    <button type="button" onclick="doitien()">Convert now!</button>
+    <br>
+    <p>Result</p>
+    <p id="hienthiketqua"></p>
+</table>
+</body>
+</html>
